@@ -40,7 +40,9 @@ The core objective is to compare fine-tuning and prompt engineering in terms of 
 - **Data Sampling**: From the filtered dataset, a random sample of 1000 speeches is selected. This sample size is chosen to maintain a diverse range of topics and discussions, ensuring that the model is not biased towards any particular type of speech or session.
 - **Translation for Summarization**: Translate Albanian speeches into English to leverage advanced NLP models optimized for English, enhancing model compatibility and improving summary quality.
   - **BLEU Score Evaluation**: Measure translation performance with BLEU scores, using the formula to assess precision and fluency.
+  
     <img src="images/BLEU.png" alt="BLEU Score Formula" width="500"/>  <!-- Adjust 'width' as needed -->
+    
   - Google Translate achieved an average BLEU score of 0.45, surpassing the Helsinki-NLP opus-mt model's 0.30, affirming its higher quality and accuracy for project use.
 
 
