@@ -16,7 +16,7 @@ This project evaluates two methodologies in Natural Language Processing (NLP) to
 
 The core objective is to compare fine-tuning and prompt engineering in terms of cost, performance, and practicality, to decide if the investment in fine-tuning is justified or if prompt-based approaches yield comparable outcomes.
 
-![Diagram](images/diagram.jpg "Kosovo Assembly Session")
+![Diagram](images/diagram.jpg "Comparative Analysis of Fine-Tuning vs. Multishot Prompting Techniques for Summarizing Albanian Parliamentary Speeches")
 
 ### Data
 
@@ -74,11 +74,12 @@ The model was pre-trained using a novel denoising approach aimed at reconstructi
 - **Efficiency in Fine-Tuning**: Its pre-training as a denoising autoencoder allows BART to excel in reconstructing text, crucial for generating precise summaries.
 
 <p align="center">
-<img src="images/Bart.png" alt="BART arcitechture" height="400"/>
+    <img src="images/Bart.png" alt="BART arcitechture" height="400"/>
 </p>
-<p align="center">
-*Source: [ProjectPro - Transformers BART Model Explained](https://www.projectpro.io/article/transformers-bart-model-explained/553)*
+<p align="center" style="font-size: 10px;">
+    *Source: <a href="https://www.projectpro.io/article/transformers-bart-model-explained/553">ProjectPro - Transformers BART Model Explained</a>*
 </p>
+
 
 
 ### Model Training and Evaluation
