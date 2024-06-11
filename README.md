@@ -30,7 +30,8 @@ The core objective is to compare fine-tuning and prompt engineering in terms of 
 
 #### Creating Labeled Data
 
-**Filename:** `1_PreProcessing.ipynb` Description: The primary challenge in our project is the absence of labeled data suitable for training a summarization model directly. As our dataset, the "Kosovo-Parliament-Transcriptions," is primarily unlabeled, our initial task involves generating this crucial labeled dataset.
+**Filename:** `1_PreProcessing.ipynb` 
+Description: The primary challenge in our project is the absence of labeled data suitable for training a summarization model directly. As our dataset, the "Kosovo-Parliament-Transcriptions," is primarily unlabeled, our initial task involves generating this crucial labeled dataset.
 
 #### Preparing the Data
 - **Data Cleaning**: Ensure the cleanliness of the dataset by removing entries with missing or incomplete data
@@ -48,7 +49,8 @@ The core objective is to compare fine-tuning and prompt engineering in terms of 
 
 ## Summarization Model Setup and Execution
 
-**Filename:** `2_Summarization.ipynb` Description: This phase employed a BERT model for initial summarization of English-translated Albanian parliamentary speeches, followed by manual review to ensure accuracy and contextual relevance.
+**Filename:** `2_Summarization.ipynb` 
+Description: This phase employed a BERT model for initial summarization of English-translated Albanian parliamentary speeches, followed by manual review to ensure accuracy and contextual relevance.
 
 #### Process Overview
 
@@ -66,7 +68,8 @@ The model was pre-trained using a novel denoising approach aimed at reconstructi
 ## Fine-Tuning BART for Summarization of Albanian Parliamentary Speeches
 
 ### Overview
-**Filename:** `3_FineTunning.ipynb` Description: This notebook outlines the process of fine-tuning the BART model, developed by Facebook AI, which features a robust architecture with 400 million parameters, to summarize Albanian parliamentary speeches. The choice of BART was driven by its effectiveness in both understanding context and generating coherent summaries, making it suitable for complex natural language processing tasks like summarization.
+**Filename:** `3_FineTunning.ipynb` 
+Description: This notebook outlines the process of fine-tuning the BART model, developed by Facebook AI, which features a robust architecture with 400 million parameters, to summarize Albanian parliamentary speeches. The choice of BART was driven by its effectiveness in both understanding context and generating coherent summaries, making it suitable for complex natural language processing tasks like summarization.
 
 ### Why Choose BART?
 - **Hybrid Model Architecture**: Combines a bidirectional encoder (for deep contextual understanding) with an autoregressive decoder (for generating fluent text), making it highly suitable for summarization tasks.
@@ -98,7 +101,8 @@ The model was pre-trained using a novel denoising approach aimed at reconstructi
 
 # Evaluating Fine-Tuning vs. Prompting Techniques for Summarizing Albanian Parliamentary Speeches
 
-**Filename:** `4_Prompting.ipynb` Description: In this notebook, we explore the efficacy of various Natural Language Processing (NLP) techniques for summarizing Albanian parliamentary speeches. The primary focus is on a comparative analysis between fine-tuning a Language Model (LM) and employing several prompt engineering strategies—specifically zero-shot, one-shot, and multi-shot approaches. The goal is to determine if prompt engineering, particularly multi-shot prompting, can provide a competitive alternative to the resource-intensive process of fine-tuning. After establishing the most effective prompting strategy, we further compare it to a fine-tuned model to ascertain which method yields superior summarization results for our specific dataset.
+**Filename:** `4_Prompting.ipynb` 
+Description: In this notebook, we explore the efficacy of various Natural Language Processing (NLP) techniques for summarizing Albanian parliamentary speeches. The primary focus is on a comparative analysis between fine-tuning a Language Model (LM) and employing several prompt engineering strategies—specifically zero-shot, one-shot, and multi-shot approaches. The goal is to determine if prompt engineering, particularly multi-shot prompting, can provide a competitive alternative to the resource-intensive process of fine-tuning. After establishing the most effective prompting strategy, we further compare it to a fine-tuned model to ascertain which method yields superior summarization results for our specific dataset.
 
 ## Zero-shot Prompt Engineering
 
